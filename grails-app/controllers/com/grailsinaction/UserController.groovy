@@ -1,7 +1,14 @@
 package com.grailsinaction
 
-class UserController {
+class UserController{
+	def scaffold = true
+	
+	def search = {
+	}
 
-    def scaffold = true
-    //def index = { }
+	def results = {
+		def users = User.findAllByUserIdLike("%${params.userId}%")
+		return [ users: users, term : params.userId ]
+	}
+
 }

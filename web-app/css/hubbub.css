@@ -161,4 +161,8 @@ dd {
     
 }
 
-
+.clear {
+    clear: both;
+		height: 0;
+		visibility: hidden;
+}

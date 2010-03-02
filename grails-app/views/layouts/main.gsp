@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Hubbub &raquo; <g:layoutTitle default="Welcome" /></title>
-        <!-- <link rel="stylesheet" href="<g:createLinkTo dir='css' file='main.css'/>"/> -->
+        <link rel="stylesheet" href="<g:createLinkTo dir='css' file='main.css'/>"/> 
         <link rel="stylesheet" href="<g:createLinkTo dir='css' file='hubbub.css'/>"/>
         <g:layoutHead />
         <g:javascript library="application" />
@@ -14,6 +14,7 @@
             </div>
             <div id="bd"><!-- start body -->
                 <g:layoutBody/>
+						<div class="clear"></div>
             </div>  <!-- end body -->
             <div id="ft">
                 <div id="footerText">
